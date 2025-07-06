@@ -28,3 +28,27 @@
    cd launch
    chmod +x *.py
    ```
+
+
+## 🖥️ RViz2 Setup Instructions
+
+1. **Launch the robot model in RViz2**
+
+   ```bash
+   ros2 launch week4_arm display_arm.launch.py
+   ```
+
+2. **In RViz2:**
+   - Click on **Global Options** in the left panel.
+   - Set **Fixed Frame** to `base_link` .
+
+3. **Add the Robot Model:**
+   - Click **Add** at the bottom left panel.
+   - Choose **RobotModel**.
+   - In the **Description Topic**, set it to `robot_description`.
+
+   ✅ You should now see the 2D robot arm model in the display window.
+
+4. *(Optional)* **Add TF to visualize frames:**
+   - Click **Add**.
+   - Choose **TF** to visualize the coordinate frames of your robot.
