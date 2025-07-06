@@ -52,3 +52,4 @@
 4. *(Optional)* **Add TF to visualize frames:**
    - Click **Add**.
    - Choose **TF** to visualize the coordinate frames of your robot.
+   - Red is the XR-axis, green is the YR-axis, blue is the ZR-axis. 
