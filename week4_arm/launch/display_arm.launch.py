@@ -8,8 +8,11 @@ from launch_ros.actions import Node
 def generate_launch_description():
     
     # Get the urdf file path
-    urdf = '/home/saksham-22/kratos/src/week4_arm/urdf/2link_robot.urdf'
-    
+    urdf = os.path.join(
+    get_package_share_directory('week4_arm'),
+    'urdf',
+    '2link_robot.urdf')
+        
     # Get the rviz config file path
     # rviz_config = '/home/saksham-22/kratos/src/week4_arm/rviz/arm.rviz'
     
